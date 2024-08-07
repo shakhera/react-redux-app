@@ -14,7 +14,7 @@ The React Redux App is a modern web application built using React, Redux Toolkit
 - **State Management:** Efficient state management with Redux Toolkit and RTK Query.
 
 ## Installation
-** Clone the repository: **
+**Clone the repository:**
    ```sh
    git clone https://github.com/shakhera/react-redux-app.git
    cd react-redux-app
