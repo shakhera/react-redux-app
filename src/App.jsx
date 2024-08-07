@@ -16,7 +16,7 @@ const App = () => {
   const [deletePost] = useDeletePostMutation();
 
   // console.log("All data are : ", posts);
-  
+
   const [posts, setPosts] = useState([]);
   const [postToUpdate, setPostToUpdate] = useState(null);
 
@@ -59,7 +59,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className="w-11/12 mx-auto">
       <div className="">
         <h2 className="mb-10 text-4xl font-bold text-center">
           welcome to my react redux app
