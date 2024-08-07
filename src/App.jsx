@@ -8,6 +8,7 @@ import {
 } from "./services/Post";
 import CreateFormModal from "./components/CreateFormModal/CreateFormModal";
 import UpdateFormModal from "./components/UpdateFormModal/UpdateFormModal";
+import { FaGithub } from "react-icons/fa";
 
 const App = () => {
   const { data: postsData, error, isLoading } = useGetPostsQuery();
@@ -64,11 +65,19 @@ const App = () => {
         <h2 className="mb-10 text-4xl font-bold text-center">
           welcome to my react redux app
         </h2>
-
         <div>
           <div className="flex justify-evenly">
+            <a
+              href="https://github.com/shakhera/react-redux-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              GitHub Link
+            </a>
+
             <h1>Posts {posts?.length}</h1>
-            {/* <CreateFormModal></CreateFormModal> */}
+
             <button
               className="btn btn-md btn-outline"
               onClick={() =>
